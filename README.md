@@ -1,1 +1,1 @@
-# manga2
+# comic
