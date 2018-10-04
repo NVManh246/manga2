@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">comic</string>
+    <string name="home">Trang chủ</string>
+    <string name="kind">Thể loại</string>
+    <string name="three">3</string>
+    <string name="author">Tác giả :</string>
+    <string name="intro">Giới thiệu</string>
+    <string name="chapter">Chapter</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="updating">Đang cập nhật</string>
+    <string name="message">Thông báo</string>
+    <string name="remove_fav">Xóa khỏi danh sách yêu thích</string>
+    <string name="add_fav">Thêm vào danh sách yêu thích</string>
+</resources>

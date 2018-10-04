@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+    </style>
+
+    <style name="StyleTextHome">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">@color/color_dark_gray</item>
+        <item name="android:layout_margin">@dimen/dp_10</item>
+        <item name="android:paddingTop">@dimen/dp_10</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+        <item name="android:paddingBottom">@dimen/dp_10</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/text_title_dialog"
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="wrap_content"
+        android:text="@string/message"
+        android:padding="@dimen/dp_10"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textSize="@dimen/sp_18"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text_msg_dialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="1234534534"
+        android:textSize="@dimen/sp_13"
+        android:textColor="@color/color_dark_gray"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/sp_20"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryBlur"/>
+
+    <LinearLayout
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thoát"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@drawable/effect_click_kind"
+            android:textColor="@color/color_dark_gray"
+            />
+
+        <View
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="@dimen/dp_30"
+            android:background="@color/colorPrimaryBlur"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:id="@+id/button_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_weight="1"
+            android:textColor="@color/color_dark_gray"
+            android:textAllCaps="false"
+            android:background="@drawable/effect_click_kind"
+            />
+    </LinearLayout>
+</LinearLayout>
